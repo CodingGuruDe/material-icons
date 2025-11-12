@@ -1,6 +1,6 @@
 {
   "name": "@coscom/material-icons",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Latest icon fonts and CSS for self-hosting material design icons.",
   "browser": "iconfont/material-icons.css",
   "sass": "iconfont/material-icons.scss",

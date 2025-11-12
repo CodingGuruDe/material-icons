@@ -21,6 +21,7 @@ test
 *.rar
 *.tar
 *.zip
+.npmrc
 
 # Logs #
 ########
