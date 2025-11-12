@@ -1,0 +1,22 @@
+@import 'variables';
+@import 'mixins';
+@import '../css/codepoints';
+
+@include material-icons-font('Material Icons Outlined');
+
+// Generate el-* classes with built-in font family for outlined icons
+@each $name, $codepoint in $material-icons-codepoints {
+  $class-name: material-icons-str-replace(
+    $name,
+    '_',
+    '-'
+  );
+
+  .el-#{$class-name} {
+    @extend .material-icons-outlined;
+    
+    &::before {
+      content: unquote('"\\#{$codepoint}"');
+    }
+  }
+}
