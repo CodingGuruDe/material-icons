@@ -40,10 +40,10 @@ or import in HTML:
 To display an icon, use one of the following:
 
 ```html
-<span class="material-icons-outlined">account_circle</span>
-<span class="material-icons-outlined">alarm</span>
-<span class="material-icons-outlined">block</span>
-<span class="material-icons-outlined">color_lens</span>
+<span class="el-account-circle">account_circle</span>
+<span class="el-alarm"></span>
+<span class="el-block"></span>
+<span class="el-color-lens"></span>
 ```
 
 ### Using Sass
