@@ -70,7 +70,20 @@ $material-icons-font-path: '~material-icons/iconfont/';
 
 ## Available Icons
 
-See [demo].
+How to validate locally
+Open the demo in your browser. From PowerShell you can run a simple static server (Python or PowerShell):
+
+If you have Python 3:
+```sh
+python -m http.server 8000
+```
+Then open http://localhost:8000/demo.html
+
+Or PowerShell (Windows 10+):
+```sh
+Start-Process msedge \"http://localhost:8000/demo.html\"
+```
+(Replace msedge with your preferred browser executable if needed.)
 
 ## License
 
